@@ -8,13 +8,13 @@ class Soap implements iSoap {
 
   public $color = 'white';
 
-  public function changeColor() {
+  public function changeColorToRed() {
 
 
   echo $this->color = 'red';
 }
 }
 
-$Soap = new Soap();
-echo $Soap->changeColor();
+$soap = new Soap();
+echo $soap->changeColorToRed();
  ?>

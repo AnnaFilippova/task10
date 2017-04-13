@@ -15,6 +15,6 @@ public $form = 'circle';
 }
 }
 
-$Ball = new Ball();
-echo $Ball->changeForm();
+$ball = new Ball();
+echo $ball->changeForm();
  ?>

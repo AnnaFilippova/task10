@@ -1,6 +1,6 @@
 <?php
 interface iBook {
-  public function Color();
+  public function echoColor();
 }
 
 
@@ -8,12 +8,12 @@ class Book implements iBook {
 
 public $color;
 
-  public function Color()  {
+  public function echoColor()  {
 
 
   echo $this->color = 'black';
 }
 }
-$Book = new Book();
-echo $Book->Color();
+$book = new Book();
+echo $book->echoColor();
  ?>

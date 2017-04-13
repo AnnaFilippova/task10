@@ -8,14 +8,14 @@ class Vase implements iVase {
 
   public $weight = '200';
 
-  public function changeWeight() {
+  public function changeWeightTofifty() {
 
 
-  echo $this->weight = '500';
+  echo $this->weight = '50';
 }
 }
 
 
-$Vase = new Vase();
-echo $Vase->changeWeight();
+$vase = new Vase();
+echo $vase->changeWeightTofifty();
  ?>

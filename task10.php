@@ -8,8 +8,8 @@ class Subjects
   public $form = 'rectangle';
 
 
-  public function Color()  {
-    echo 'green';
+  public function printColor()  {
+    echo $this->color;
   }
 }
 
@@ -17,21 +17,21 @@ class Book extends Subjects{
 
 }
 
-$Book = new Book();
-echo $Book->Color();
+$book = new Book();
+echo $book->printColor();
 
 class Vase extends Subjects
 {
   public $diameter = 200;
 
 
-  public function Diameter() {
-    echo '200';
+  public function printDiameter() {
+    echo $this->diameter;
   }
 }
 
-$Vase = new Vase();
-echo $Vase->Diameter();
+$vase = new Vase();
+echo $vase->printDiameter();
 
 class Ball extends Subjects {
 
@@ -41,8 +41,8 @@ class Ball extends Subjects {
 
 }
 
-$Ball = new Ball();
-echo $Ball->changeForm();
+$ball = new Ball();
+echo $ball->changeForm();
 
 
 Class Soap extends Subjects {
@@ -52,8 +52,8 @@ Class Soap extends Subjects {
   }
 }
 
-$Soap = new Soap();
-echo $Soap->changeMatherial();
+$soap = new Soap();
+echo $soap->changeMatherial();
 
 
 Class Cat extends Subjects {
@@ -63,6 +63,6 @@ Class Cat extends Subjects {
   }
 }
 
-$Cat = new Cat();
-echo $Cat->changeWeight();
+$cat = new Cat();
+echo $cat->changeWeight();
 ?>

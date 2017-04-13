@@ -15,6 +15,6 @@ echo 'Кошка говорит ' . $this->sound;
 }
 }
 
-$Cat = new Cat();
-echo $Cat->makeSound();
+$cat = new Cat();
+echo $cat->makeSound();
  ?>
